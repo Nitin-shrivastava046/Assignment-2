@@ -1,0 +1,46 @@
+.package-search-area {
+    padding: 120px 0;
+    // border: 1px solid red;
+
+    .main-title {
+        margin-bottom:70px;
+
+        h1 {
+            font-size: 48px;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+    }
+
+    .main-btn {
+        border: 2px solid $input-btn-border-color;
+        color: $text-white;
+
+        &:hover {
+            background-color: $input-btn-border-color;
+        }
+    }
+
+}
+
+.contact-form-input {
+    position: relative;
+    background: url(https://preview.colorlib.com/theme/beyond/img/pac-search-bg.jpg.webp) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 70px 50px;
+    z-index: 1;
+
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: $text-black;
+    opacity: .5;
+    z-index: -1;
+}

@@ -1,0 +1,38 @@
+.newsletter {
+    padding: 120px 0;
+
+    .main-title {
+        padding-left: 20%;
+
+        h1 {
+            font-size: 48px;
+        }
+
+        .input-group {
+            border-bottom: 1px solid #a7a3a3;
+            padding: 10px 0;
+            input {
+                height: 40px;
+                background: $text-white;
+                border-radius: 0px;
+                width: 65%;
+                border: none;
+                padding: 25px;
+                font-size: 14px;
+                font-family: "Roboto", sans-serif;
+                color: $text-white;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+.bottom-line{
+    color: 1px solid $para-color;
+}
+    .right-img {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

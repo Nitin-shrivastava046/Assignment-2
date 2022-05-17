@@ -1,0 +1,95 @@
+.benifits {
+    padding: 120px 0px;
+
+    .main-title {
+        margin-bottom: 70px;
+
+        h1 {
+            font-size: 59px;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+    }
+
+    .card {
+        border: 1px solid #eee;
+        transition: all 0.3s ease 0s;
+        margin-bottom: 20px;
+        overflow: hidden;
+
+        &:hover {
+            box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+            border: 1px solid transparent;
+
+            .card-image::before {
+                left: -100%;
+            }
+        }
+
+        .card-image {
+            position: relative;
+            overflow: hidden;
+
+            .img-f {
+                width: 100%;
+            }
+
+            &::before {
+                position: absolute;
+                content: "";
+                background: rgba(255, 255, 255, 0.4);
+                z-index: 10;
+                left: 100%;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .card-body {
+        padding: 25px;
+
+        .meta {
+            margin-top: 15px 0 15px;
+            color: #777;
+            text-transform: uppercase;
+            .calender{
+                color:#222;
+               padding:0 5px;
+            }
+            .heart{
+                color:#222;
+                padding:0 5px;
+            }
+            .bubble{
+                color:#222;
+                padding:0 5px;
+            }
+            .fa{
+                color: gray;
+                margin-right: 5px;
+            }
+        }
+
+        .card-title {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #222;
+            font-size: 18px;
+            line-height: 27px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            line-height: 27px;
+        }
+
+    }
+}

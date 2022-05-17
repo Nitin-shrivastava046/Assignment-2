@@ -1,0 +1,88 @@
+.popular-brand {
+    padding: 120px 0;
+    .pop {
+
+        
+
+        .left-main-content {
+            position: relative;
+
+
+
+            .img-f {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .img2 {
+                position: absolute;
+                left: 50%;
+                top: 2%;
+                max-width: 50%;
+            }
+
+            .img3 {
+                position: absolute;
+                right: 30%;
+                bottom: -10%;
+            }
+        }
+
+        .right-content {
+            .main-title {
+                padding-right: 50px;
+                // border: 1px solid red;
+                h1 {
+                    font-size: 48px;
+                }
+            }
+            
+
+            .counter-area {
+                margin-top: 50px;
+
+                .single-card {
+                    margin-bottom: 20px;
+                    padding: 0 20px;
+                    border-radius: none;
+                    border: 1px solid rgba(92, 88, 88, 0.9)
+                    h4 {
+                        font-size: 24px;
+                        font-weight: 700;
+                        font-family: "Playfair Display", serif;
+                        margin-bottom: 20px;
+                    }
+
+                    &:hover {
+                        background: #007bff;
+
+                        .image {
+                            .fa-solid {
+                                color: $text-white;
+                            }
+                        }
+
+                        h4 {
+                            color: white;
+                        }
+
+                        p {
+                            color: $text-white;
+                        }
+                    }
+
+                    .image {
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+
+                        .fa-solid {
+                            color: blue;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

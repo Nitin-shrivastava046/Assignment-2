@@ -1,0 +1,96 @@
+
+
+#navigation{
+    position: fixed;
+    z-index: 9;
+}
+#menu {
+	position: relative;
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+	z-index: 20;
+	left: 50px;
+	background-color:$text-white;
+}
+.bar {
+	height: 5px;
+	width: 100%;
+	background-color: $text-black;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1 {
+	transform: translateY(-4px);
+	transition: all .3s ease 0s;
+}
+#bar3 {
+	transform: translateY(4px);
+	transition: all .3s ease 0s;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px;
+	.logo{
+		margin: 20px;
+	}
+	li {
+		a {
+			color: rgb(25, 23, 23);
+			text-decoration: none;
+			&:hover {
+				border: 1px solid $text-white;
+				color: $text-black;
+			}
+		}
+		padding: 16px;
+		list-style: none;
+	}
+	position: absolute;
+	left: -500px;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s ease 0s;
+}
+.icon {
+	.bar {
+		background-color: $text-black;
+	}
+	#bar1 {
+		transform: translateY(4px) rotate(-45deg);
+		position: relative;
+		left: 100px;
+		transition: all .3s ease 0s;
+	}
+	#bar3 {
+		transform: translateY(-6px) rotate(45deg);
+		position: relative;
+		left: 100px;
+		transition: all .3s ease 0s;
+	}
+	#bar2 {
+		opacity: 0;
+		left: 50px;
+	}
+}
+.change {
+	background-color: $text-white;
+	// margin-left: 50px;
+	width: 500px;
+	opacity: 1;
+	visibility: visible;
+    z-index: 10;
+	top: 0;
+	left: -50px;
+	color: rgb(15, 14, 14);
+	position: absolute;
+    box-shadow: 0 10px 30px $text-black;
+    border: 1px solid transparent;
+}

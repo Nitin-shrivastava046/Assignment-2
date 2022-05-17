@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <!-- navbar starts -->
+    <nav>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-3 d-flex align-items-center">
+                    <div id="navigation">
+
+                        <div id="menu" onclick="onClickMenu()">
+                            <div id="bar1" class="bar"></div>
+                            <div id="bar2" class="bar"></div>
+                            <div id="bar3" class="bar"></div>
+                        </div>
+
+
+                        <ul class="nav d-flex justify-content-center" id="nav">
+                            <div class="logo">
+                                <img src="https://preview.colorlib.com/theme/beyond/img/logo.png.webp" alt="">
+                            </div>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class=" col-lg-3 col-6 justify-content-center align-items-center d-flex  pr-2">
+                    <a href="#" class="main-btn text-center"> Book a Table
+                        <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+
+
+    <!-- <div class="container-fluid menu-bar">
+        <div class="row justify-content-between d-flex">
+            <div class="col" id="navigation">
+
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+
+
+                <ul class="nav" id="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="col justify-content-end d-flex align-items-center">
+                <a href="#" class="main-btn text-center"> Book a Table
+                    <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                        alt="">
+                </a>
+            </div>
+
+
+        </div>
+    </div> -->
+    <br>
+    <!-- section 2 banner section starts -->
+    <div class="banner-area">
+        <div class="contianer-fluid">
+            <div class="row d-flex justify-content-center align-items-center div-container banner">
+                <div class="col-md-6 banner-left  d-flex justify-content-start align-items-center">
+                    <div class="left-content">
+                        <h1>santortini island <br> in greece</h1>
+                        <p>
+                            If you are looking at blank cassettes on the web, you may be very confused at the
+                            difference
+                            in price. You may
+                            see some for as low as $.17 each.
+                        </p>
+                        <a href="#" class="main-btn text-center"> Get Started
+                            <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="banner-right col-md-6">
+                    <div class="image">
+                        <img src="https://preview.colorlib.com/theme/beyond/img/banner/xbanner-img.jpg.pagespeed.ic.WM2rlkqFd_.webp"
+                            alt="">
+                    </div>
+                    <div class="video-popup">
+                        <a href="#" class="video-play-btn">
+                            <span><i class="fa-solid fa-play"></i></span>
+                        </a>
+                        <div class="watch">
+                            <h5>Watch Intro Video</h5>
+                            <p>You Will love our execution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner section ends -->
+
+
+    <!-- section 3 popular brands starts -->
+    <div class="popular-brand">
+        <div class="container pop">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-5 offset-lg-1  left-content ">
+                    <div class="left-main-content">
+                        <img src="https://preview.colorlib.com/theme/beyond/img/popular/ximg1.jpg.pagespeed.ic.Lv90eEKbA8.webp"
+                            class="img1 img-f" alt="">
+                        <img src="https://preview.colorlib.com/theme/beyond/img/popular/ximg2.jpg.pagespeed.ic._iu3z_OZ_7.webp"
+                            class="img2 img-f" alt="">
+                        <img src="https://preview.colorlib.com/theme/beyond/img/popular/ximg3.jpg.pagespeed.ic.gWz0Z905_7.webp"
+                            class="img3 img-f" alt="">
+                    </div>
+                </div>
+                <div class=" col-lg-5">
+                    <div class="right-content">
+                        <div class="main-title ">
+                            <h1>popular places around the world</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        </div>
+                        <div class="timer">
+                            <div class="container-fluid counter-area ">
+                                <div class="row">
+                                    <div class="col-6 col-m">
+                                        <div class="card single-card d-flex justify-content-center align-items-center">
+                                            <div class="image">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="details  text-center">
+                                                <h4>London</h4>
+                                                <p>135 places</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class=" card single-card d-flex justify-content-center align-items-center">
+                                            <div class="image">
+                                                <i class="fa-solid fa-car-side"></i>
+                                            </div>
+                                            <div class="details text-center">
+                                                <h4>Turkey</h4>
+                                                <p>75 places</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card single-card d-flex  align-items-center">
+                                            <div class="image">
+                                                <i class="fa-solid fa-truck"></i>
+                                            </div>
+                                            <div class="details  text-center">
+                                                <h4>Paris</h4>
+                                                <p>150 places</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card single-card d-flex justify-content-center align-items-center">
+                                            <div class="image">
+                                                <i class="fa-solid fa-map-location-dot"></i>
+                                            </div>
+                                            <div class="details  text-center">
+                                                <h4>Thailand</h4>
+                                                <p>85 places</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- popular brands ends -->
+
+    <!-- section 4 package area starts -->
+    <div class="package-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="left-package-container col-lg-5 col-md-12">
+                    <div class="main-package-title">
+                        <h1>Best tour plans recently</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                        <a href="" class="main-btn">
+                            browse all practice
+                            <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-12">
+                    <div class="owl-container">
+                        <div id="slider1" class="owl-carousel">
+                            <div class="content-area">
+                                <a href="#">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/xpac2.jpg.pagespeed.ic.Al464fLxVu.webp"
+                                        alt="">
+                                    <div class="gallery-content">
+                                        <div class="title align-items-center justify-content-between d-flex">
+                                            <p>Proper Guided Tour</p>
+                                            <h4>$56/Day</h4>
+
+                                        </div>
+                                        <h4>Santorini Island Dream Holiday and Fun package</h4>
+                                        <div class="review-title d-flex justify-content-between">
+                                            <p>Proper Guided Tour</p>
+                                            <div class="review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="light-box">
+                                        <a href="https://preview.colorlib.com/theme/beyond/img/xpac2.jpg.pagespeed.ic.Al464fLxVu.webp"
+                                            style="width: 300px; height: 400px;" target="_blank"
+                                            data-fancybox="gallery">
+
+                                            <span class="icon"></span>
+                                        </a>
+                                    </div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content-area">
+                                <a href="#">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/xpac2.jpg.pagespeed.ic.Al464fLxVu.webp"
+                                        alt="">
+                                    <div class="gallery-content">
+                                        <div class="title align-items-center justify-content-between d-flex">
+                                            <p>Proper Guided Tour</p>
+                                            <h4>$56/Day</h4>
+
+                                        </div>
+                                        <h4>Santorini Island Dream Holiday and Fun package</h4>
+                                        <div class="review-title d-flex justify-content-between">
+                                            <p>Proper Guided Tour</p>
+                                            <div class="review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="light-box">
+                                        <a href="https://preview.colorlib.com/theme/beyond/img/xpac2.jpg.pagespeed.ic.Al464fLxVu.webp"
+                                            style="width: 300px; height: 400px;" target="_blank"
+                                            data-fancybox="gallery">
+
+                                            <span class="icon"></span>
+                                        </a>
+                                    </div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content-area">
+                                <a href="#">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/xpac1.jpg.pagespeed.ic.MwoTHHiq-R.webp"
+                                        alt="">
+                                    <div class="gallery-content">
+                                        <div class="title align-items-center justify-content-between d-flex">
+                                            <p>Proper Guided Tour</p>
+                                            <h4>$56/Day</h4>
+
+                                        </div>
+                                        <h4>Santorini Island Dream Holiday and Fun package</h4>
+                                        <div class="review-title d-flex justify-content-between">
+                                            <p>Proper Guided Tour</p>
+                                            <div class="review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="light-box">
+                                        <a href="https://preview.colorlib.com/theme/beyond/img/xpac1.jpg.pagespeed.ic.MwoTHHiq-R.webp"
+                                            style="width: 300px; height: 400px;" target="_blank"
+                                            data-fancybox="gallery">
+
+                                            <span class="icon"></span>
+                                        </a>
+                                    </div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="content-area">
+                                <a href="#">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/xpac1.jpg.pagespeed.ic.MwoTHHiq-R.webp"
+                                        alt="">
+                                    <div class="gallery-content">
+                                        <div class="title align-items-center justify-content-between d-flex">
+                                            <p>Proper Guided Tour</p>
+                                            <h4>$56/Day</h4>
+
+                                        </div>
+                                        <h4>Santorini Island Dream Holiday and Fun package</h4>
+                                        <div class="review-title d-flex justify-content-between">
+                                            <p>Proper Guided Tour</p>
+                                            <div class="review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="light-box">
+                                        <a href="https://preview.colorlib.com/theme/beyond/img/xpac1.jpg.pagespeed.ic.MwoTHHiq-R.webp"
+                                            style="width: 300px; height: 400px;" target="_blank"
+                                            data-fancybox="gallery">
+
+                                            <span class="icon"></span>
+                                        </a>
+                                    </div>
+                                </a>
+                                <div class="overlay"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- package area ends -->
+
+
+    <!-- section 5 benifits starts -->
+    <div class="benifits">
+        <div class="container pop-1">
+            <div class="row align-items-end justify-content-left">
+                <div class="col-lg-5">
+                    <div class="main-title">
+                        <h1>Benifits Get Our Customers</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, omnis perferendis atque
+                            consequatur qui tempore sequi maiores laborum explicabo ratione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <span>within a shor time</span>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <span>within a shor time</span>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <span>within a shor time</span>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- benifits ends -->
+
+
+    <!-- package search area starts -->
+    <section class="package-search-area">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-lg-5">
+                    <div class="main-title">
+                        <h1>
+                            search
+                            <br>suitable & desired
+                            <br>package for you
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 ">
+                    <div class="contact-form-input">
+                        <h4 class="text-white">package area</h4>
+                        <form action="">
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" placeholder="Destination">
+                            </div>
+                            <br>
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" placeholder="Check in Date">
+
+                            </div>
+                            <br>
+                            <div class="form-group col-md-12">
+                                <input type="text" class="form-control" placeholder="Check Out Date">
+
+                            </div>
+                            <br>
+                            <div class="form-group">
+
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>adults</option>
+                                    <option value="1">Adults</option>
+                                    <option value="2">Adults</option>
+                                    <option value="3">Adults</option>
+                                </select>
+
+                            </div>
+                            <br>
+                            <div class="form-group">
+
+                                <select class="form-select" aria-label="child">
+                                    <option selected>child</option>
+                                    <option value="1">child</option>
+                                    <option value="2">child</option>
+                                    <option value="3">child</option>
+                                </select>
+
+                            </div>
+                            <br>
+                            <div class="col-lg-12 text-center">
+                                <button class="main-btn text-uppercase">
+
+                                    Browse all Packages
+                                    <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                                        alt="">
+                                </button>
+                            </div>
+                        </form>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- package search area ends -->
+
+
+
+    <!-- testimonal starts -->
+    <div class="testimonal">
+        <div class="container testi">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 left-div">
+                    <div class="image">
+                        <img src="https://preview.colorlib.com/theme/beyond/img/testi-img.jpg.webp" class="img-fluid"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+
+
+                    <div class="owl-container">
+                        <div id="slider2" class="owl-carousel">
+                            <div class="content-area">
+                                <div class="single-testi">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/quote.png.webp" alt="">
+                                </div>
+
+                                <div class="testi-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea
+                                        commodo consequat.</p>
+                                </div>
+                                <div class="author">
+                                    <h4>Marvel Maison</h4>
+                                    <p>Chief Executive, Amazon</p>
+                                </div>
+
+                            </div>
+                            <div class="content-area">
+                                <div class="single-testi">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/quote.png.webp" alt="">
+                                </div>
+
+                                <div class="testi-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea
+                                        commodo consequat.</p>
+                                </div>
+                                <div class="author">
+                                    <h4>Marvel Maison</h4>
+                                    <p>Chief Executive, Amazon</p>
+                                </div>
+
+                            </div>
+                            <div class="content-area">
+                                <div class="single-testi">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/quote.png.webp" alt="">
+                                </div>
+
+                                <div class="testi-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea
+                                        commodo consequat.</p>
+                                </div>
+                                <div class="author">
+                                    <h4>Marvel Maison</h4>
+                                    <p>Chief Executive, Amazon</p>
+                                </div>
+
+                            </div>
+                            <div class="content-area">
+                                <div class="single-testi">
+                                    <img src="https://preview.colorlib.com/theme/beyond/img/quote.png.webp" alt="">
+                                </div>
+
+                                <div class="testi-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea
+                                        commodo consequat.</p>
+                                </div>
+                                <div class="author">
+                                    <h4>Marvel Maison</h4>
+                                    <p>Chief Executive, Amazon</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- <div class="owl-nav">
+                            <div class="owl-prev">
+                                <img src="https://preview.colorlib.com/theme/beyond/img/cprev.png.webp" alt="">
+                            </div>
+                            <div class="owl-next">
+                                <img src="https://preview.colorlib.com/theme/beyond/img/cnext.png.webp" alt="">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonal ends -->
+
+
+
+
+
+
+
+
+    <!-- news letter starts -->
+
+    <div class="newsletter">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5">
+                    <div class="main-title">
+                        <h1>Subscribe
+                            <br>
+                            To Get Updated For
+                            <br>
+                            Our Newsletter
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.
+
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.
+
+                        </p>
+                        <div class="signup">
+                            <form action="">
+                                <div class="form-group input-group col-lg-6">
+                                    <input type="email" class="form-control" placeholder="enter email">
+                                    <button class="main-btn">Subscribe
+                                        <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                                            alt="">
+                                    </button>
+                                    <br>
+
+                                </div>
+                                <!-- <div class="input-email">
+                                        <input type="email" class="form-control" placeholder="enter email address" name="EMAIL">
+                                        <button class="main-btn">Subscribe
+                                            <img src="data:image/webp;base64,UklGRmAAAABXRUJQVlA4TFMAAAAvMMACEF8wIiMyImYCJo0yTkpgCH4DenAAYHgMBigCRpEkSak90IIELICL/a80zn8bLBxE9H8CUEfB/lbvXLTMomUj9rn8gPolB9Ys1rlg7dijAAA="
+                                                alt="">
+                                        </button>
+                                    </div> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 right-img">
+                    <img src="https://preview.colorlib.com/theme/beyond/img/nwl-img.png.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- newsletters ends -->
+
+
+    <!-- benifits last section starts -->
+    <div class="benifits">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="main-title">
+                        <h1>Benifits Get Our Customers</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, omnis perferendis atque
+                            consequatur qui tempore sequi maiores laborum explicabo ratione.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <a href="#">
+                                    <span class="calender icon">
+                                        <i class="fa-solid fa-calendar-days fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="heart icon">
+                                        <i class="fa-solid fa-heart fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="bubble icon">
+                                        <i class=" fa-comment fa"></i>
+                                        04
+                                    </span>
+                                </a>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <a href="#">
+                                    <span class="calender icon">
+                                        <i class="fa-solid fa-calendar-days fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="heart icon">
+                                        <i class="fa-solid fa-heart fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="bubble icon">
+                                        <i class=" fa-comment fa"></i>
+                                        04
+                                    </span>
+                                </a>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://preview.colorlib.com/theme/beyond/img/ame1.jpg.webp" class="img-f" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="meta">
+                                <a href="#">
+                                    <span class="calender icon">
+                                        <i class="fa-solid fa-calendar-days fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="heart icon">
+                                        <i class="fa-solid fa-heart fa"></i>
+                                        17 may
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="bubble icon">
+                                        <i class=" fa-comment fa"></i>
+                                        04
+                                    </span>
+                                </a>
+                            </div>
+                            <h5 class="card-title">
+                                Tremendous Options for an Food Lovers
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Expedita
+                                aliquam facere dignissimos. Eos fugiat, enim veritatis dolor delectus quibusdam
+                                dignissimos odit.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section ends -->
+
+
+
+    <!-- footer starts -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row footer-top d-flex flex-wrap ">
+                <div class="col-lg-3  col-sm-6 col-md-6">
+                    <div class="footer-content">
+                        <h6>About Crafted</h6>
+                        <p>
+                            The world has become so fast paced that people don’t want to stand by reading a page of
+                            information, they would
+                            much rather look.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-sm-6 col-md-6">
+                    <div class="footer-content links">
+                        <h6>Navigation Links</h6>
+
+                        <div class="row list d-flex flex-wrap">
+                            <ul class="col">
+
+                                <li class="unstyled"><a href="#">Home</a></li>
+                                <li class="unstyled"><a href="#">Service</a></li>
+                                <li class="unstyled"><a href="#">Project</a></li>
+
+                            </ul>
+                            <ul class="col">
+
+                                <li><a href="#">Team Member</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Contact</a></li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3  col-sm-6 col-md-6">
+                    <div class="footer-content">
+                        <h6>Newsletter</h6>
+                        <p>
+                            The world has become so fast paced that people don’t want to stand by reading a page of
+                            information, they would
+                            much rather look.</p>
+                        <div class="signup">
+                            <form action="">
+                                <div class="d-flex flex-row ">
+                                    <input type="email" class="input-email form-control" placeholder="enter email">
+                                    <button class=" plane-btn click-btn btn btn-default">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-sm-6 col-md-6">
+                    <div class="footer-content ">
+                        <h6>Instafeed</h6>
+                        <div class="image-link d-flex flex-wrap">
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i1.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i2.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i3.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i4.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i5.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i6.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i7.jpg.webp" alt="">
+                            </li>
+                            <li>
+                                <img src="https://preview.colorlib.com/theme/beyond/img/instagram/i8.jpg.webp" alt="">
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright d-flex justify-content-between flex-wrap">
+            <div class="container">
+                <div class="row d-flex justify-content-between ">
+                    <div class="col">
+                        <p>
+
+                            Copyright ©2022 All rights reserved | This template is made with
+                            <i class="fa-solid fa-heart"></i>
+                            by
+                            <a href="#" class="btn-default">colorlib</a>
+
+                        </p>
+                    </div>
+                    <div class="col link-icon d-flex justify-content-end ">
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- </div>
+                <div>
+                    <p>
+
+                        Copyright ©2022 All rights reserved | This template is made with
+                        <i class="fa-solid fa-heart"></i>
+                        by
+                        <a href="#">colorlib</a>
+
+                    </p>
+                </div> -->
+                <div class="link-icon">
+
+                </div>
+            </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+
+        $('#slider1').owlCarousel({
+            items: 2,
+            loop: true,
+            margin: 10,
+            nav: true,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+
+        $('#slider2').owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: true,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+        Fancybox.bind("[data-fancybox]", {
+            Thumbs: false,
+            Toolbar: false,
+
+            Image: {
+                zoom: true,
+                click: false,
+
+            },
+        });
+
+        function onClickMenu() {
+            document.getElementById("menu").classList.toggle("icon");
+            document.getElementById("nav").classList.toggle("change");
+        }
+    </script>
+
+</body>
+
+</html>

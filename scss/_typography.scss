@@ -1,0 +1,45 @@
+h1{
+    
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    color: $para-color;
+}
+h4{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    
+}
+ h5 {
+    color: #222222;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Playfair Display', serif;
+}
+h6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+li{
+    list-style: none ;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: #777777;
+    font-family: "Roboto",sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}

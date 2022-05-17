@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    line-height: 27px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+}
+.container{
+    max-width: 1170px;
+}
+
+@import "color";
+@import "typography";
+@import "button";
+@import "input";
+@import "header";
+@import "banner";
+@import "popular-brand";
+@import "package-area";
+@import "benifits";
+@import "package-search";
+@import "testimonal";
+@import "newsletter";
+@import "footer";
+@import "media_query";

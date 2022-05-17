@@ -1,0 +1,62 @@
+.testimonal {
+    .left-div{
+        .image{
+            .img-fluid{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .owl-container {
+        .content-area {
+            .single-testi {
+                img {
+                    width: auto;
+                    height: auto;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            .testi-content {
+                p {
+                    font-size: 24px;
+                    font-style: italic;
+                    line-height: 30px;
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .author {
+                h4 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .owl-carousel {
+            .owl-nav {
+                button.owl-next {
+                    display: block;
+                    width: 50px;
+                    margin: 5px 0;
+                    color: transparent;
+                    background: url(https://preview.colorlib.com/theme/beyond/img/cnext.png.webp);
+                }
+
+                button.owl-prev {
+                    color: transparent;
+                    display: block;
+                    width: 50px;
+                    margin: 5px 0;
+                    background: url(https://preview.colorlib.com/theme/beyond/img/cprev.png.webp);
+                }
+
+            }
+        }
+    }
+}

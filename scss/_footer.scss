@@ -1,0 +1,86 @@
+.footer-area {
+    min-height: 100%;
+    background: #1e1c27;;
+    color: $text-white;
+    font-size: 14px;
+
+    p {
+        color: $para-color;
+    }
+
+    .footer-top {
+        padding: 120px 0;
+
+
+        .footer-content {
+            margin-bottom: 20px;
+
+            .signup {
+                form {
+
+                    .input-email {
+
+                        border: 1px solid #333;
+                        width: 80% !important;
+                        font-weight: 300;
+                        background: transparent;
+                        color: #fff;
+                        padding-left: 20px;
+                        border-radius: 0;
+                        font-size: 14px;
+                        border-right: 0;
+                        outline: none !important;
+                    }
+
+                    &:focus {
+                        border: 1px solid #80bdff !important;
+                        border-radius: none;
+                        outline: none !important;
+                    }
+                }
+
+                button {
+                    border-radius: 0;
+                    background-color: $btn-color;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+li {
+    a {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        color: #777;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+
+.footer-copyright {
+    border-top: 1px solid #777;
+    padding: 20px 85px;
+    .fa-solid{
+        color: $btn-color;
+    }
+    .link-icon {
+        margin-right: 35px;
+
+        a {
+            .fa-brands {
+                color: $text-white;
+                margin-right: 20px;
+            }
+
+        }
+
+    }
+}

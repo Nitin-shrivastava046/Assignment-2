@@ -1,0 +1,37 @@
+.main-btn {
+    margin-top: 20px;
+    padding: 0 25px;
+    background: transparent;
+    display: inline-block;
+    color: $btn-text-color;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    border: 1px solid $btn-color;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 8;
+    
+    &:hover {
+        background: $btn-color;
+        color: $btn-text-color;
+        border: 1px solid $btn-color;
+    }
+    
+    &:hover img{
+        right: -35px;
+    }
+    
+    img {
+        position: absolute;
+        top: 50%;
+        right: -30px;
+        transition: all .3s ease 0s;
+        transform: translateY(-50%);
+    }
+
+}

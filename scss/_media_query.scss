@@ -1,0 +1,275 @@
+@media (max-width:1400px) {
+    .container {
+        max-width: 1040px;
+    }
+}
+
+@media (max-width:976px) {
+    .banner-area {
+        .banner-left {
+            .left-content {
+                h1 {
+                    font-size: 35px;
+                }
+            }
+        }
+
+    }
+
+
+
+    .benifits {
+        padding: 0 12%;
+
+        .main-title {
+            margin-bottom: 30px;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .popular-brand {
+        .pop {
+            .left-content {
+                display: none;
+
+            }
+
+            .right-content {
+                .main-title {
+                    padding: 0 12%;
+
+                    h1 {
+                        font-size: 36px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .package-area {
+        .left-package-container {
+            .main-package-title {
+                padding: 0 12%;
+                margin-bottom: 30px;
+
+                h1 {
+                    font-size: 36px;
+                }
+
+            }
+        }
+    }
+
+    .package-search-area {
+        .main-title {
+            padding: 0 12%;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .testimonal {
+        .testi {
+            padding: 0 12%;
+
+            .left-div {
+                display: none;
+            }
+        }
+    }
+
+    .newsletter {
+        .main-title {
+            padding: 0 12%;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+
+        .right-img {
+            img {
+                max-width: 100%;
+                height: auto;
+                display: none;
+            }
+        }
+    }
+
+    #menu {
+        left: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner-area {
+        background: url(https://preview.colorlib.com/theme/beyond/img/banner/xbanner-img.jpg.pagespeed.ic.WM2rlkqFd_.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+
+        .div-container {
+            .left-content {
+                padding: 20px;
+                padding-left: 5%;
+                padding-right: 5%;
+
+                h1 {
+                    font-size: 35px;
+                    color: aliceblue;
+                }
+
+
+
+                //   border: 1px solid red;
+
+                p {
+                    color: azure;
+                }
+
+            }
+        }
+
+
+
+        .banner-right {
+            display: none;
+        }
+
+        .main-btn {
+            color: white;
+
+            img {
+                background-color: brightness(30%);
+            }
+        }
+    }
+
+
+
+
+    .newsletter {
+
+
+        .main-title {
+            padding: 0 12%;
+
+
+        }
+
+    }
+
+    .package-area {
+
+        .left-package-container {
+
+            .main-package-title {
+                padding: 0 12%;
+                margin-bottom: 50px;
+            }
+        }
+
+
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+    .benifits {
+        padding: 0;
+        .main-title {
+            margin-bottom: 30px;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .popular-brand {
+        .pop{
+            .right-content {
+                .main-title {
+                    padding:0%;
+                }
+            }
+        }
+        
+    }
+
+
+    .banner-area {
+
+        .div-container {
+            .left-content {
+                h1 {
+                    font-size: 35px;
+                    color: aliceblue;
+                }
+
+                width: 100%;
+                padding:20px 2%;
+
+                //   border: 1px solid red;
+
+                p {
+                    color: azure;
+                }
+
+            }
+        }
+
+    }
+
+    .newsletter {
+
+
+        .main-title {
+            padding: 0;
+
+
+        }
+
+    }
+
+    .package-area {
+
+        .left-package-container {
+
+            .main-package-title {
+                padding-left: 0;
+                padding-right: 0;
+                margin-bottom: 50px;
+            }
+        }
+
+
+    }
+
+    .package-search-area {
+        .main-title {
+            padding: 0;
+        }
+    }
+
+    .testimonal {
+        .testi {
+            padding: 0;
+
+            .left-div {
+                display: none;
+            }
+        }
+    }
+
+}
