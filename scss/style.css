@@ -371,11 +371,14 @@ a {
   margin-bottom: 20px;
   padding: 0 20px;
   border-radius: none;
-  border: 1px solid rgba(92, 88, 88, 0.9) h4;
-  border-font-size: 24px;
-  border-font-weight: 700;
-  border-font-family: "Playfair Display", serif;
-  border-margin-bottom: 20px;
+  border: 1px solid rgba(92, 88, 88, 0.9);
+  overflow: hidden;
+}
+.popular-brand .pop .right-content .counter-area .single-card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
 }
 .popular-brand .pop .right-content .counter-area .single-card:hover {
   background: #007bff;
@@ -447,7 +450,7 @@ a {
   visibility: visible;
   bottom: 0;
   left: 0;
-  padding-top: 170px;
+  padding-top: 250px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
